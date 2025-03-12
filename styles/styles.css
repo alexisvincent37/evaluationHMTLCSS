@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home{
+    height: 100vh;
+    background-image: url(../images/home1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+}
+
+.H {
+    font-size: 450px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.2;
+    margin: 0% 0 0 15%;
+    position: absolute;
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav-bar {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar img {
+    width: 130px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.nav-bar nav {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 30px; 
+}
+
+.nav-bar a {
+    color: white;
+    margin: 20px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.nav-bar a:hover {
+    color: #c1b086;
+}
+
+#home span {
+    width: 200px;
+    font-family: 'Roboto Slab', serif;
+    top: 25%;
+    position: relative;
+    color: white;
+}
+
+#home span h1 {
+    width: 200px;
+    font-size: 80px;
+    margin: 0 0 0 15%;
+    font-family: 'Roboto Slab', serif;
+}
+
+#home span p {
+    font-size: 15px;
+    margin: 2.5% 0 0 17.5%;
+    width: 47.5%;
+    font-family: 'Roboto Slab', serif;
+}
+
+#about {
+    height: 100vh;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+}
+
+#amenities {
+    height: 100vh;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+}
+
+#rooms {
+    height: 100vh;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+}
+
+#restaurant {
+    height: 100vh;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+}
+
+#gallery {
+    height: 100vh;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+}
