@@ -5,6 +5,21 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+img {
+    user-select: none;
+}
+
+.home_button {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    padding: 15px 30px 15px 30px;
+    background-color: #c1b086;
+    border-radius: 30px;
+    border: white 2px solid;
+    box-shadow: 0 0 100px rgb(255, 0, 0,0.5);
+    font-size: 10px;
+}
 
 #home{
     height: 100vh;
