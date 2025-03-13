@@ -16,6 +16,7 @@ body{
 }
 
 .H {
+    user-select: none;
     font-size: 450px;
     font-weight: bold;
     color: white;
