@@ -6,6 +6,18 @@ body{
     box-sizing: border-box;
 }
 
+.home_button {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    padding: 15px 30px 15px 30px;
+    background-color: #c1b086;
+    border-radius: 30px;
+    border: white 2px solid;
+    box-shadow: 0 0 100px rgb(255, 0, 0,0.5);
+    font-size: 10px;
+}
+
 #home{
     height: 100vh;
     background-image: url(../images/home1.jpg);
@@ -78,9 +90,65 @@ body{
 }
 
 #about {
+    background-color:rgb(193, 176, 134, 0.2);
     height: 100vh;
     font-family: 'Roboto Slab', serif;
     position: relative;
+    justify-content: center;
+}
+
+#about img.section_about_img1 {
+    width: 350px;
+    height: 500px;
+    position: relative;
+}
+
+#about img.section_about_img2 {
+    width: 400px;
+    height: 250px;
+    position: relative;
+}
+
+#about span {
+    display: inline-block;
+    width: 40%;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+}
+
+#about span h1 {
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+    margin: 0 0 0 0;
+}
+
+#about span h2 {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: 'Roboto Slab', serif;
+    margin: 0 0 0 0;
+    color: #664f14;
+}
+
+#about span h2::before {
+    margin-bottom: 10px;
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color:#c1b086;
+  }
+
+#about span p {
+    font-size: 10px;
+    font-family: 'Roboto Slab', serif;
+    color: #664f14;
+    margin-left: 45px;
+}
+
+#about .home_button {
+    display: inline-block;
+    margin: 40px 0 0 45px;
 }
 
 #amenities {
