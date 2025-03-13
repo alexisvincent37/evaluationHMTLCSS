@@ -100,9 +100,60 @@ img {
 }
 
 #amenities {
+    background-color:rgb(193, 176, 134, 0.2);
     height: 100vh;
     font-family: 'Roboto Slab', serif;
     position: relative;
+}
+
+#amenities img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-top: #c1b086 4px solid;
+    border-bottom: #c1b086 4px solid;
+}
+
+#amenities .container_blue {
+    background-color: rgb(48, 158, 221);
+    color: white;
+    width: 45%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    border: #c1b086 4px solid;
+    border-radius: 20px;
+    position: absolute;
+    right: 7%;
+    bottom: 5%;
+}
+
+#amenities .icone_container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 0 5%;
+}
+
+#amenities ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -10%;
+}
+
+#amenities ul li {
+    margin: 30px;
+
+}
+
+#amenities ul li i {
+    margin-right: 30px;
+}
+
+#amenities .home_button {
+    position: absolute;
+    right: 1%;
+    bottom: 3%;
 }
 
 #rooms {
