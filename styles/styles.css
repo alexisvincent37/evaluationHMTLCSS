@@ -109,7 +109,6 @@ img {
 #amenities img {
     width: 100%;
     height: 70%;
-    object-fit: cover;
     border-top: #c1b086 4px solid;
     border-bottom: #c1b086 4px solid;
 }
@@ -117,8 +116,8 @@ img {
 #amenities .container_blue {
     background-color: rgb(48, 158, 221);
     color: white;
-    width: 45%;
-    height: 50%;
+    width: 49%;
+    height: 52%;
     justify-content: center;
     align-items: center;
     border: #c1b086 4px solid;
@@ -126,12 +125,24 @@ img {
     position: absolute;
     right: 7%;
     bottom: 5%;
+    opacity: 0.5;
+    box-shadow: 5px 5px 5px black;
+    transition: 0.5s ease;
+}
+
+#amenities .container_blue:hover {
+    opacity: 1;
+}
+
+#amenities span {
+    display: inline-block;
+    margin: 5% 5% 5% 5%;
 }
 
 #amenities .icone_container {
     display: flex;
     justify-content: space-around;
-    margin: 0 0 0 5%;
+    margin: -5% 0 0 5%;
 }
 
 #amenities ul {
