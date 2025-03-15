@@ -21,6 +21,22 @@ img {
     font-size: 10px;
 }
 
+img {
+    user-select: none;
+}
+
+.home_button {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    padding: 15px 30px 15px 30px;
+    background-color: #c1b086;
+    border-radius: 30px;
+    border: white 2px solid;
+    box-shadow: 0 0 100px rgb(255, 0, 0,0.5);
+    font-size: 10px;
+}
+
 #home{
     height: 100vh;
     background-image: url(../images/home1.jpg);
@@ -94,9 +110,85 @@ img {
 }
 
 #about {
+    background-color:rgb(193, 176, 134, 0.2);
     height: 100vh;
     font-family: 'Roboto Slab', serif;
     position: relative;
+    justify-content: center;
+}
+
+#about img {
+    position: relative;
+    border-radius: 30px;
+    border: #c1b086 4px solid;
+    box-shadow: 15px 15px 20px black;
+    transition: 0.5s ease;
+}
+
+#about img:hover {
+    scale: 1.3;
+}
+
+#about img.section_about_img1 {
+    margin: 10% 0 0 12%;
+    width: 300px;
+    height: 450px;
+    position: relative;
+}
+
+#about img.section_about_img2 {
+    margin: 24% 0 0 -10%;
+    width: 350px;
+    height: 230px;
+    position: absolute;
+}
+
+#about span {
+    display: inline-block;
+    width: 40%;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    left: 400px;
+    top: -13%;
+}
+
+#about span h1 {
+    font-size: 28px;
+    font-family: 'Roboto Slab', serif;
+    margin: 10px 0 30px 0;
+}
+
+#about span h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 20px;
+    color: #664f14;
+}
+
+#about span h2::before {
+    margin-bottom: 25px;
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color:#c1b086;
+  }
+
+#about span p {
+    font-size: 11px;
+    font-family: 'Roboto Slab', serif;
+    color: #664f14;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+
+
+#about .home_button {
+    display: inline-block;
+    margin: 40px 0 0 45px;
 }
 
 #amenities {
