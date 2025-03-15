@@ -260,9 +260,132 @@ img {
 }
 
 #rooms {
+    background-color:rgb(193, 176, 134, 0.2);
     height: 100vh;
     font-family: 'Roboto Slab', serif;
     position: relative;
+}
+
+#rooms span {
+    display: inline-block;
+    width: 40%;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    margin: 2% 0 0 10%;
+}
+
+#rooms span h1 {
+    font-size: 28px;
+    font-family: 'Roboto Slab', serif;
+    margin: 10px 0 30px 0;
+}
+
+#rooms span h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 20px;
+    color: #664f14;
+}
+
+#rooms span h2::before {
+    margin-bottom: 25px;
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color:#c1b086;
+  }
+
+#rooms .home_button {
+    right: 10%;
+    top: 10%;
+    position: absolute;
+}
+
+#rooms .img_container {
+    display: flex;
+    margin: 2% 0 0 10%;
+    gap: 30px;
+    width: 80%;
+
+}
+
+#rooms .img_container .box {
+    background-color:rgb(193, 176, 134, 0.1);
+    display: inline-block;
+    height: 530px;
+    width: 480px;
+    padding: 0;
+    border-radius: 30px;
+    border: #c1b086 4px solid;
+}
+
+#rooms .img_container .room_info {
+    flex-direction: column;
+    background-color: white;
+    margin-top: auto;
+    height: 15%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+}
+
+#rooms .img_container .box#room1 {
+    background-image: url(../images/r1.jpg);
+    background-size: cover;
+    background-position: center;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#rooms .img_container .box#room2 {
+    background-image: url(../images/r2.jpg);
+    background-size: cover;
+    background-position: center;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#rooms .img_container .box#room3 {
+    background-image: url(../images/r3.jpg);
+    background-size: cover;
+    background-position: center;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#rooms .img_container span {
+    width: 100%;
+    margin: 0 0 0 10px;
+}
+
+#rooms .img_container p {
+    width: 100%;
+    margin: 5px 0 0 10px ;
+}
+
+#rooms .img_container p::before {
+    content: "$";
+    font-size: 0.8em;
+    color: #c1b086;
+}
+
+#rooms .img_container p::after {
+    content: " /per night";
+    font-size: 0.8em;
+    color: #c1b086;
+}
+
+#rooms .img_container h1 {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    margin: 10px 0 0 10px;
 }
 
 #restaurant {
