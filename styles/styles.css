@@ -370,6 +370,7 @@ img {
     background-image: url(../images/re.jpg);
     background-size: cover;
     border: #c1b086 4px solid;
+    box-shadow: 5px 5px 5px black;
 }
 
 #restaurant span h1 {
@@ -424,6 +425,7 @@ img {
     border: #c1b086 4px solid;
     border-radius: 30px;
     color: white;
+    box-shadow: 5px 5px 5px black;
 }
 
 #restaurant .restaurant_box .food_name {
