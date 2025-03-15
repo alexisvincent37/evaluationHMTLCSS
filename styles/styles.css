@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
 }
 img {
     user-select: none;
@@ -12,12 +13,11 @@ img {
 .home_button {
     text-decoration: none;
     color: white;
-    font-family: 'Roboto Slab', serif;
     padding: 15px 30px 15px 30px;
     background-color: #c1b086;
     border-radius: 30px;
     border: white 2px solid;
-    box-shadow: 0 0 100px rgb(255, 0, 0,0.5);
+    box-shadow: 0 20px 100px black;
     font-size: 10px;
 }
 
@@ -25,17 +25,6 @@ img {
     user-select: none;
 }
 
-.home_button {
-    text-decoration: none;
-    color: white;
-    font-family: 'Roboto Slab', serif;
-    padding: 15px 30px 15px 30px;
-    background-color: #c1b086;
-    border-radius: 30px;
-    border: white 2px solid;
-    box-shadow: 0 0 100px rgb(255, 0, 0,0.5);
-    font-size: 10px;
-}
 
 #home{
     height: 100vh;
@@ -43,18 +32,6 @@ img {
     background-size: cover;
     background-position: center;
     position: relative;
-    font-family: 'Roboto Slab', serif;
-}
-
-.H {
-    user-select: none;
-    font-size: 450px;
-    font-weight: bold;
-    color: white;
-    opacity: 0.2;
-    margin: 0% 0 0 15%;
-    position: absolute;
-    font-family: 'Roboto Slab', serif;
 }
 
 .nav-bar {
@@ -71,14 +48,12 @@ img {
 }
 
 .nav-bar nav {
-    font-family: 'Roboto Slab', serif;
     margin-top: 30px; 
 }
 
 .nav-bar a {
     color: white;
     margin: 20px;
-    font-family: 'Roboto Slab', serif;
     text-decoration: none;
     transition: 0.5s ease;
 }
@@ -89,30 +64,35 @@ img {
 
 #home span {
     width: 200px;
-    font-family: 'Roboto Slab', serif;
     top: 25%;
     position: relative;
     color: white;
+}
+
+#home span h1::after {
+    content: "H";
+    font-size: 450px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.2;
+    position: absolute;
+    margin: -340px 0 0 0;
 }
 
 #home span h1 {
     width: 200px;
     font-size: 80px;
     margin: 0 0 0 15%;
-    font-family: 'Roboto Slab', serif;
 }
 
 #home span p {
     font-size: 15px;
     margin: 2.5% 0 0 17.5%;
     width: 47.5%;
-    font-family: 'Roboto Slab', serif;
 }
 
 #about {
-    background-color:rgb(193, 176, 134, 0.2);
     height: 100vh;
-    font-family: 'Roboto Slab', serif;
     position: relative;
     justify-content: center;
 }
@@ -146,7 +126,6 @@ img {
 #about span {
     display: inline-block;
     width: 40%;
-    font-family: 'Roboto Slab', serif;
     position: relative;
     left: 400px;
     top: -13%;
@@ -154,14 +133,12 @@ img {
 
 #about span h1 {
     font-size: 28px;
-    font-family: 'Roboto Slab', serif;
     margin: 10px 0 30px 0;
 }
 
 #about span h2 {
     text-transform: uppercase;
     font-size: 14px;
-    font-family: 'Roboto Slab', serif;
     margin-bottom: 20px;
     color: #664f14;
 }
@@ -177,7 +154,6 @@ img {
 
 #about span p {
     font-size: 11px;
-    font-family: 'Roboto Slab', serif;
     color: #664f14;
     margin-left: 45px;
     margin-bottom: 20px;
@@ -192,9 +168,7 @@ img {
 }
 
 #amenities {
-    background-color:rgb(193, 176, 134, 0.2);
     height: 100vh;
-    font-family: 'Roboto Slab', serif;
     position: relative;
 }
 
@@ -260,30 +234,25 @@ img {
 }
 
 #rooms {
-    background-color:rgb(193, 176, 134, 0.2);
     height: 100vh;
-    font-family: 'Roboto Slab', serif;
     position: relative;
 }
 
 #rooms span {
     display: inline-block;
     width: 40%;
-    font-family: 'Roboto Slab', serif;
     position: relative;
     margin: 2% 0 0 10%;
 }
 
 #rooms span h1 {
     font-size: 28px;
-    font-family: 'Roboto Slab', serif;
     margin: 10px 0 30px 0;
 }
 
 #rooms span h2 {
     text-transform: uppercase;
     font-size: 14px;
-    font-family: 'Roboto Slab', serif;
     margin-bottom: 20px;
     color: #664f14;
 }
@@ -384,16 +353,13 @@ img {
 
 #rooms .img_container h1 {
     font-size: 20px;
-    font-family: 'Roboto Slab', serif;
     margin: 10px 0 0 10px;
 }
 
 #restaurant {
     height: 100vh;
-    font-family: 'Roboto Slab', serif;
     position: relative;
     display: flex;
-    background-color:rgb(193, 176, 134, 0.2);
 }
 
 #restaurant .section_restaurant_img1 {
@@ -408,7 +374,6 @@ img {
 
 #restaurant span h1 {
     font-size: 30px;
-    font-family: 'Roboto Slab', serif;
     margin: 0 0 60px 0;
 }
 
@@ -424,7 +389,6 @@ img {
 #restaurant span p {
     font-size: 15px;
     width: 50%;
-    font-family: 'Roboto Slab', serif;
     margin: 0 0 30px 55px;
 }
 
@@ -498,28 +462,23 @@ img {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    font-family: 'Roboto Slab', serif;
     position: relative;
-    background-color:rgb(193, 176, 134, 0.2);
 }
 
 #gallery span {
     display: inline-block;
-    font-family: 'Roboto Slab', serif;
     margin: 1% 0 0 10%;
     position: relative;
 }
 
 #gallery span h1 {
     font-size: 28px;
-    font-family: 'Roboto Slab', serif;
     margin: 10px 0 30px 0;
 }
 
 #gallery span h2 {
     text-transform: uppercase;
     font-size: 16px;
-    font-family: 'Roboto Slab', serif;
     margin-bottom: 20px;
     color: #664f14;
 }
