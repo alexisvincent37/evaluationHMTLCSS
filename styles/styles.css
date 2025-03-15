@@ -118,7 +118,78 @@ img {
 }
 
 #gallery {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     font-family: 'Roboto Slab', serif;
     position: relative;
+    background-color:rgb(193, 176, 134, 0.2);
+}
+
+#gallery span {
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    margin: 1% 0 0 10%;
+    position: relative;
+}
+
+#gallery span h1 {
+    font-size: 28px;
+    font-family: 'Roboto Slab', serif;
+    margin: 10px 0 30px 0;
+}
+
+#gallery span h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 20px;
+    color: #664f14;
+}
+
+#gallery span h2::before {
+    margin-bottom: 40px;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color:#c1b086;
+  }
+
+#gallery .home_button {
+    position: absolute;
+    right: 12%;
+    top: 50%;
+}
+
+#gallery .img_portfolio {
+    margin: 3% 0 0 10%;
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    gap: 5px;
+}
+
+#gallery .img_container {
+    width: 5%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    border-radius: 100px;
+    border: #c1b086 4px solid;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+    transition: 1s ease;
+}
+
+
+#img1:checked ~ .img_container:nth-of-type(1),
+#img2:checked ~ .img_container:nth-of-type(2),
+#img3:checked ~ .img_container:nth-of-type(3),
+#img4:checked ~ .img_container:nth-of-type(4),
+#img5:checked ~ .img_container:nth-of-type(5),
+#img6:checked ~ .img_container:nth-of-type(6),
+#img7:checked ~ .img_container:nth-of-type(7),
+#img8:checked ~ .img_container:nth-of-type(8) {
+    width: 100%;
 }
