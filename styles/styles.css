@@ -21,11 +21,6 @@ img {
     font-size: 10px;
 }
 
-img {
-    user-select: none;
-}
-
-
 #home{
     height: 100vh;
     background-image: url(../images/home1.jpg);
@@ -490,8 +485,9 @@ img {
     background-size: cover;
     display: flex;
     border-radius: 100px;
-    border: #c1b086 4px solid;
+    border: #664f14 4px solid;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+    opacity: 0.5;
     transition: 1s ease;
 }
 
@@ -505,4 +501,5 @@ img {
 #img7:checked ~ .img_container:nth-of-type(7),
 #img8:checked ~ .img_container:nth-of-type(8) {
     width: 100%;
+    opacity: 1;
 }
